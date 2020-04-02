@@ -9,3 +9,4 @@ soup = BeautifulSoup(page,'html.parser')
 
 #tag검색
 print(soup.find_all("title"))
+
