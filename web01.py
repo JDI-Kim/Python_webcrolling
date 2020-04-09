@@ -8,4 +8,5 @@ page= urllib.request.urlopen("https://justdoitproject.tistory.com/15")
 soup = BeautifulSoup(page,'html.parser')
 
 #tag검색
-print(soup.find_all("title"))
+print(soup.find_all("p"))
+
